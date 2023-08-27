@@ -1,0 +1,32 @@
+<template>
+    <dialog class="contact-dialog">
+        <h1>Contact Me </h1>
+<form onsubmit={handleSubmit}>
+    <label for="first-name">
+        First Name:
+        <input type="text" name="first-name" class="firstname">
+    </label>
+    <label for="last-name">
+        Last Name:
+        <input type="text" name="last-name" class="lastname">
+    </label>
+    <label for="company">
+        Company:
+        <input type="text" name="compay" class="company">
+    </label>
+    <label for="email">
+        Email Address:
+        <input type="email" name="email" class="email">
+    </label>
+    <textarea class="description" placeholder="write something!!" cols="40" rows="4"></textarea>
+    <div class="btn-container">
+<input type="submit">
+    <button onclick={closeDialog}>Cancel</button>
+</div>
+</form>
+
+       
+    </dialog>
+
+    <button onclick={showDialog}>Contact Me</button>
+</template>
