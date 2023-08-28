@@ -12,17 +12,14 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "backgroundColor" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "This is Our Portfolio Site!",
-                "textAlign" : "center",
-                "textDecoration" : "{}",
-                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
-              },
-              "definition" : "dxp_base:textBlock",
-              "id" : "7c8801a7-8ea5-49ae-a321-e1ee2243a4b2",
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "b98585a8-066f-4a31-80f8-562899a1ed2e",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:skillCards",
+              "id" : "88be271a-645d-447b-8302-224400dc5e6e",
               "type" : "component"
             } ],
             "id" : "eca30a0f-8cc9-4b3e-b77a-967b6eb30c8d",
