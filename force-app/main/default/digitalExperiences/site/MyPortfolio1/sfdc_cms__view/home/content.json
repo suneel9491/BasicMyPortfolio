@@ -21,6 +21,11 @@
               "definition" : "c:skillCards",
               "id" : "88be271a-645d-447b-8302-224400dc5e6e",
               "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:aboutMe",
+              "id" : "54f96725-2452-4a66-8169-8c97e4fc9da5",
+              "type" : "component"
             } ],
             "id" : "eca30a0f-8cc9-4b3e-b77a-967b6eb30c8d",
             "name" : "col1",
