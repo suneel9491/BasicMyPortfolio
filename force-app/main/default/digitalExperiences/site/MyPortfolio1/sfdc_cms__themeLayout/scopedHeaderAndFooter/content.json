@@ -12,6 +12,12 @@
             "sectionConfig" : "{\"UUID\":\"dd692608-8bcb-40fd-b497-647f911dc249\",\"columns\":[{\"UUID\":\"51d94ec9-533c-4933-a654-1035509e5331\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:navMenu",
+              "id" : "e92011c2-69ef-427f-99c6-49b509ef7462",
+              "type" : "component"
+            } ],
             "id" : "51d94ec9-533c-4933-a654-1035509e5331",
             "name" : "headerSection",
             "title" : "Theme Header",
@@ -33,6 +39,20 @@
             "sectionConfig" : "{\"UUID\":\"e2a09c16-8674-40ea-974c-a501e1d69545\",\"columns\":[{\"UUID\":\"7694c72a-dfbe-4a39-b3eb-2371ee11fc2a\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site is built using Lightning Web Components running on Lightning Web Runtime.",
+                "textAlign" : "center",
+                "textDecoration" : "{\"italic\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "43261b50-4f81-477b-81e9-ed5955b21cfb",
+              "type" : "component"
+            } ],
             "id" : "7694c72a-dfbe-4a39-b3eb-2371ee11fc2a",
             "name" : "footerSection",
             "title" : "Theme Footer",

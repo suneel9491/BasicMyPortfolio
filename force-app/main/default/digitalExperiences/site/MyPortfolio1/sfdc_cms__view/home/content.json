@@ -19,12 +19,12 @@
             }, {
               "attributes" : { },
               "definition" : "c:skillCards",
-              "id" : "88be271a-645d-447b-8302-224400dc5e6e",
+              "id" : "51337239-1d70-41a2-b60c-a5fc19b72e06",
               "type" : "component"
             }, {
               "attributes" : { },
               "definition" : "c:aboutMe",
-              "id" : "54f96725-2452-4a66-8169-8c97e4fc9da5",
+              "id" : "c0f54f53-a7fc-4b87-9179-87ec7ed3c863",
               "type" : "component"
             } ],
             "id" : "eca30a0f-8cc9-4b3e-b77a-967b6eb30c8d",
